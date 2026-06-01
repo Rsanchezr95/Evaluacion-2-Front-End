@@ -51,7 +51,7 @@ function agregarNuevoProyecto(){
 
             categoria: escaparHTML(categoria),
 
-            imagen: "images/portfolio_1.jpg"
+            imagen: "images/note.jpg"
         };
 
         proyectos.push(proyecto);
