@@ -1,0 +1,121 @@
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="./css/bootstrap.min.css">
+        <title>Document</title>
+    </head>
+    <body>
+        <div class="container-fluid">
+        <header>
+                <div class="row bg-dark p-2 text-white">
+                    <div class="col-sm-12 col-md-6 col-lg-6 col-xl-6" style="background-color: white";>
+                        <nav class="navbar bg-body-tertiary">
+                            <img src="images/inacap.jpg" class="img-thumbnail" alt="" width="100">
+                        </nav>
+                    </div>
+                    <div class="col-sm-12 col-md-6 col-lg-6 col-xl-6" style="background-color: white;">
+                        <nav class="nav justify-content-end">
+                                <a class="nav-link active" aria-current="page" href="#">Home</a>
+                                <a class="nav-link" href="#">Servicios</a>
+                                <a class="nav-link" href="#">Quienes Somos</a>
+                                <a class="nav-link" href="#">Contacto</a>                   
+                                <a class="nav-link disabled" aria-disabled="true"></a>
+                        </nav>  
+                    </div>
+                </div>
+            </header> 
+            <main>
+                <div class="container-fluid" style="background-color: rgb(54, 52, 52);">
+                <div class="row text-start text-black p-5" style="background-image: url('images/slide_2.jpg'); height:450px; background-size: cover; background-repeat: no-repeat; background-position: center; background-attachment: fixed;">
+                    <div class="col-sm-12 col-md-12 col-lg-12 col-xl-12"><h1></h1></div>
+
+                    <div class="col-sm-12 col-md-12 col-lg-12 col-xl-12 text-center"><h2><b>Te ayudamos a capturar, organizar y abordar tus tareas pendientes desde cualquier lugar</b></h2></div>
+                </div>
+                <hr>
+                <div class="row text-center" style="background-color: rgb(54, 52, 52);">
+                    <div class="col-sm-12 col-md-12 col-lg-12 col-xl-12" ></div>
+                    <h3 style="color: azure;"><b>PROYECTOS ACTIVOS</h3></b>
+                    <p style="color: azure;">A continuación se presentan los proyectos activos</p> 
+                    <!--ESTO MODIFIQUE PARA QUE LA IMAGEN NO SEA FIJA-->
+                    <div class="container">
+                        <div class="row mb-4">
+                            <div class="col-md-4">
+                                <input 
+                                    type="text" 
+                                    id="nombreProyecto" 
+                                    class="form-control" 
+                                    placeholder="Nombre proyecto"
+                                >
+                            </div>
+                            <div class="col-md-4">
+                                <input 
+                                    type="text" 
+                                    id="categoriaProyecto" 
+                                    class="form-control" 
+                                    placeholder="Categoría"
+                                >
+                            </div>
+                            <div class="col-md-4">
+                                <button 
+                                    id="agregarProyecto" 
+                                    class="btn btn-dark w-100">Agregar Proyecto</button>
+                            </div>
+                        </div>
+                        <div class="row" id="contenedorProyectos">
+                        </div>
+                    </div>
+                    <!--HASTA ACA-->
+                    <div class="col-sm-12 col-md-12 col-lg-12 col-xl-12" ></div>
+                    <hr>
+                    <h3 style="color: azure;"><b>PROYECTOS TERMINADOS</h3></b>
+                    <p style="color: azure;">A continuación se presentan los proyectos terminados</p> 
+                    <div class="container">
+                        <div class="row mb-4">
+
+                        </div>
+                        <div class="row" id="contenedorTerminados">
+                        </div>
+                    </div>
+                <hr>
+                <section class="container"></section>
+                    <div class="container text-center">
+                    <div class="row align-items-start">
+                        <div class="row text-start text-black p-3 align-items-start">
+                            <div class="col-sm-12 col-md-12 col-lg-12 col-xl-6">
+                            <h3 style="color: azure;"><b>Contacto</b></h3>
+                            <p style="color: azure;">Sin importar lo que necesites (ya sea conocer sobre nuestro trabajo, darnos ideas para mejorar o solicitar ayuda con algún problema), no dudes en contactarnos.</p>
+                            <p style="color: azure;">Puedes utilizar el formulario a tu derecha. Estaremos felices de leerte </p>
+                        </div>
+                        <div class="col-sm-12 col-md-12 col-lg-12 col-xl-6">
+                            <h3 style="color: azure;"><b>CONTACTANOS</b></h3>
+                            <form>
+                            <div class="mb-3">
+                            <input type="text" id="disabledTextInput" class="form-control" placeholder="Name">
+                            </div>
+                            <div class="mb-3">
+                            <input type="text" id="disabledTextInput" class="form-control" placeholder="Email">
+                            </div>
+                            <div class="mb-3">
+                                <input type="text" id="disabledTextInput" class="form-control" placeholder="Subject">
+                            </div>
+                            <div class="mb-3">
+                                <textarea class="form-control" placeholder="Send your message" id="exampleFormControlTextarea1" rows="3"></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-primary">Send Message</button>
+                        </div>
+                    </div>
+                    </div>
+            </main>
+            <footer>
+                <div class="row bg-info bg-dark text-center text-white p-3">
+                <div class="col-sm-12 col-md-12 col-lg-12 col-xl-12">
+                    <h8>Página realizada con fines educativos</h8>
+                </div>
+                </div>
+            </footer>
+        </div>
+    <script src="js/main.js"></script>
+    </body>
+    </html>
